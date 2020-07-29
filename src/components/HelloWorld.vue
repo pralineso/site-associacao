@@ -2,7 +2,9 @@
   <div>
     <Top /> 
     <!-- <Inicio /> -->
-    <Sobre/>
+    <!-- <Sobre/> -->
+    <!-- <Contato/> -->
+    <Associese/>
     <Down />
   </div>
 </template>
@@ -11,7 +13,9 @@
 import Top from "./Top.vue";
 import Down from "./Down.vue";
 //import Inicio from "./templates/Inicio.vue";
-import Sobre from "./templates/Sobre.vue"
+//import Sobre from "./templates/Sobre.vue"
+//import Contato from "./templates/Contato.vue"
+import Associese from "./templates/Associese.vue"
 
 
 export default {
@@ -23,7 +27,9 @@ export default {
     Top,
     Down,
    // Inicio,
-    Sobre
+   // Sobre,
+   // Contato
+   Associese
   },
 }
 </script>
