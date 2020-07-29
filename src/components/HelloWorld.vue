@@ -1,13 +1,18 @@
 <template>
   <div>
     <Top /> 
-    <Inicio />
+    <!-- <Inicio /> -->
+    <Sobre/>
+    <Down />
   </div>
 </template>
 
 <script>
 import Top from "./Top.vue";
-import Inicio from "./templates/Inicio.vue";
+import Down from "./Down.vue";
+//import Inicio from "./templates/Inicio.vue";
+import Sobre from "./templates/Sobre.vue"
+
 
 export default {
   name: 'HelloWorld',
@@ -16,7 +21,9 @@ export default {
   },
   components: {
     Top,
-    Inicio
+    Down,
+   // Inicio,
+    Sobre
   },
 }
 </script>
