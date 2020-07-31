@@ -20,7 +20,7 @@
       </blockquote>
 
       <div class="d-flex justify-content-center pt-5">
-          <button type="button" class="btn btn-info rounded-pill btn-lg btn-size">Associe-se</button>
+          <button type="button" class="btn btn-info rounded-pill btn-lg btn-size">Seja um associado !</button>
       </div>
     </div>
   </div>

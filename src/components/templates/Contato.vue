@@ -27,15 +27,15 @@
     <div class="container pt-5">
       <h4 class="pl-3">Redes Sociais</h4>
       <div class="row justify-content-center text-center pt-5">
-            <div class="col-2">
-                <a href="#">Facebook</a>
-            </div>
-            <div class="col-2">
-                <a href="#">Intagram</a>
-            </div>
-            <div class="col-2">
-                <a href="#">LinkedIn</a>
-            </div>
+        <div class="col-2">
+          <a href="#">Facebook</a>
+        </div>
+        <div class="col-2">
+          <a href="#">Intagram</a>
+        </div>
+        <div class="col-2">
+          <a href="#">LinkedIn</a>
+        </div>
       </div>
     </div>
 
@@ -54,6 +54,10 @@
           <div class="col-md-8">
             <textarea class="form-control" rows="5">Mensagem:</textarea>
           </div>
+        </div>
+
+        <div class="d-flex justify-content-center pt-5">
+          <button type="button" class="btn btn-info rounded-pill ">Enviar</button>
         </div>
       </form>
     </div>
