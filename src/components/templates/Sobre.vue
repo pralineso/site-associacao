@@ -1,4 +1,7 @@
 <template>
+<div>
+  <Top />
+
   <div class="container pt-5">
     <h2 >Sobre a APEQ-ES</h2>
 
@@ -53,11 +56,21 @@
         
     </div>
   </div>
+
+  <Down />
+</div>
 </template>
 
 <script>
+import Top from "../Top.vue";
+import Down from "../Down.vue";
+
 export default {
-  name: "Sobre"
+  name: 'Sobre',
+  components: {
+    Top, 
+    Down
+  }
 };
 </script>
 

@@ -1,4 +1,7 @@
 <template>
+<div>
+  <Top />
+
   <div class="container pt-5">
     <h2>Associe-se</h2>
 
@@ -24,11 +27,21 @@
       </div>
     </div>
   </div>
+
+  <Down />
+</div>
 </template>
 
 <script>
+import Top from "../Top.vue";
+import Down from "../Down.vue";
+
 export default {
-  name: "Associese"
+  name: "Associese",
+  components:{
+    Top, 
+    Down
+  }
 };
 </script>
 
