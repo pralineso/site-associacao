@@ -2,7 +2,7 @@
   <div>
     <Top />
 
-    <div class="container text-center mt-4">
+    <div class="container text-center mt-4 ">
       <h1 class="display-4">
         <p>Associação de profissionais</p>
         <p>da Engenharia Química do Espírito Santo</p>

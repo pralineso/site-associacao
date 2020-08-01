@@ -5,27 +5,33 @@
         <a class="navbar-brand" href="#">APEQ-ES</a>
           <ul class="nav navbar-nav navbar-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
+              <a class="nav-link" href="#"><router-link  class="footer-color" to="home">Inicio</router-link></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="#"><router-link  class="footer-color" to="sobre">Sobre</router-link></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#"><router-link  class="footer-color" to="contato">Contato</router-link></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Associe-se</a>
+              <a class="nav-link" href="#"><router-link class="footer-color" to="associese">Associe-se</router-link></a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="nav-item">
-              <a class="nav-link" href="#">I</a>
+              <a class="nav-link" href="https://www.facebook.com/apeq.es">
+                <font-awesome-icon :icon="['fab', 'facebook-f']" />
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">F</a>
+              <a class="nav-link" href="https://www.linkedin.com/in/apeq-es">
+                <font-awesome-icon :icon="['fab', 'linkedin-in']" />
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">L</a>
+            <a class="nav-link" href="https://www.instagram.com/apeq.es/">
+              <font-awesome-icon :icon="['fab', 'instagram']" />
+            </a>
             </li>
           </ul>
             
@@ -40,14 +46,8 @@ export default {
 };
 </script>
 
-<!--
 <style scoped>
-.footer {
-  position: fixed;
-   left: 0;
-   bottom: 0;
-   padding-top: 50px;
-   width: 100%;
+.footer-color{
+  color: gray;
 }
 </style>
--->
