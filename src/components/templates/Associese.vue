@@ -2,7 +2,7 @@
 <div>
   <Top />
 
-  <div class="container pt-5">
+  <div class="container pt-5 ">
     <h2>Associe-se</h2>
 
     <div class="container pt-5">

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div  class="navbar-fixed-bottom pt-5">
     <nav class="navbar navbar-expand navbar-light bg-light">
       <div class="container pt-5">
         <a class="navbar-brand" href="#">APEQ-ES</a>
@@ -40,3 +40,14 @@ export default {
 };
 </script>
 
+<!--
+<style scoped>
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   padding-top: 50px;
+   width: 100%;
+}
+</style>
+-->
