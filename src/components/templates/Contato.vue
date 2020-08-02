@@ -1,73 +1,95 @@
 <template>
-<div>
-  <Top />
-
-  <div class="container pt-5">
-    <h2>Contato</h2>
-
-    <div class="row">
-      <div class="col md-6 text-center">
-        <h4>Telefones</h4>
-        <div class="mt-5">
-          <p>
-            <a href="tel:(99) 9999-9999">Telefone 1: (27) 9999-9999</a>
-          </p>
-          <p>
-            <a href="tel:(99) 9999-9999">Telefone 2: (27) 8888-8888</a>
-          </p>
-        </div>
-      </div>
-      <div class="col md-6 text-center">
-        <h4>Email</h4>
-        <div class="mt-5">
-          <p>
-            <a href="mailto: sapeq@email.com">Email: apeq@email.com</a>
-          </p>
-        </div>
-      </div>
-    </div>
+  <div>
+    <Top />
 
     <div class="container pt-5">
-      <h4 class="pl-3">Redes Sociais</h4>
-      <div class="row justify-content-center text-center pt-5">
-        <div class="col-2">
-          <a href="#">Facebook</a>
+      <div class="row justify-content-center">
+        <div class="col-md-10 align-self-center">
+          <h2>Contato</h2>
         </div>
-        <div class="col-2">
-          <a href="#">Intagram</a>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col-md-6 col-sm-12 text-center">
+          <!--  <div class="bg-light mr-3"> -->
+          <h3>Telefones</h3>
+          <div class="mt-5 mb-5">
+            <p>
+              <a class="color-style" href="tel:(99) 9999-9999">Telefone 1: (27) 9999-9999</a>
+            </p>
+            <p>
+              <a class="color-style" href="tel:(99) 9999-9999">Telefone 2: (27) 8888-8888</a>
+            </p>
+          </div>
+          <!--  </div> -->
         </div>
-        <div class="col-2">
-          <a href="#">LinkedIn</a>
+        <div class="col-md-6 col-sm-12 text-center">
+          <!--  <div class="bg-light "> -->
+          <h3>Email</h3>
+          <div class="mt-5 mb-5">
+            <p>
+              <a class="color-style" href="mailto: sapeq@email.com">Email: apeq@email.com</a>
+            </p>
+          </div>
+        </div>
+        <!--  </div> -->
+      </div>
+
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-10 align-self-center">
+          <h3 class="pl-3">Redes Sociais</h3>
+          <div class="row justify-content-center text-center pt-5">
+            <div class="col-md-2 pb-auto">
+              <a class="color-style" href="#">Facebook</a>
+            </div>
+            <div class="col-md-2 pb-auto">
+              <a class="color-style" href="#">Intagram</a>
+            </div>
+            <div class="col-md-2 pb-auto">
+              <a class="color-style" href="#">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-10 align-self-center">
+          <h3 class="pl-3">Fale Conosco </h3>
+          <form>
+            <div class="form-row justify-content-center pt-5">
+              <div class="col-md-8">
+              <!--   <div class="input-group input-group-lg"> -->
+                  <input type="text" class="form-control" placeholder="Nome:" />
+              <!--   </div> -->
+              </div>
+            </div>
+            <div class="form-row justify-content-center pt-4">
+              <div class="col-md-8">
+              <!--  <div class="input-group input-group-lg"> -->
+                  <input type="text" class="form-control" placeholder="Email:" />
+              <!--  </div> -->
+              </div>
+            </div>
+            <div class="form-row justify-content-center pt-4">
+              <div class="col-md-8">
+              <!--  <div class="input-group input-group-lg"> -->
+                  <textarea class="form-control" placeholder="Mensagem:" rows="5"></textarea>
+              <!--  </div> -->
+              </div>
+            </div>
+
+            <div class="row justify-content-md-center pt-4">
+              <div class="col-md-4">
+                <button type="button" class="btn btn-info estilo rounded-pill">Enviar</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
 
-    <div class="container pt-5 pb-5">
-      <h4 class="pl-3">Fale Conosco 2</h4>
-      <form>
-        <div class="form-row justify-content-center pt-5">
-          <div class="col-md-4">
-            <input type="text" class="form-control" placeholder="Nome:" />
-          </div>
-          <div class="col-md-4">
-            <input type="text" class="form-control" placeholder="Email:" />
-          </div>
-        </div>
-        <div class="form-row justify-content-center pt-4">
-          <div class="col-md-8">
-            <textarea class="form-control" rows="5">Mensagem:</textarea>
-          </div>
-        </div>
-
-        <div class="d-flex justify-content-center pt-5">
-          <button type="button" class="btn btn-info rounded-pill ">Enviar</button>
-        </div>
-      </form>
-    </div>
+    <Down />
   </div>
-
-  <Down />
-</div>
 </template>
 
 <script>
@@ -76,9 +98,18 @@ import Down from "../Down.vue";
 
 export default {
   name: "Contato",
-  components:{
+  components: {
     Top,
-    Down
-  }
+    Down,
+  },
 };
 </script>
+
+<style>
+.estilo{
+  width: 100%;
+}
+.color-style {
+  color: gray;
+}
+</style>
