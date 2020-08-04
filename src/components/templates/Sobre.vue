@@ -4,14 +4,14 @@
 
     <div class="container pt-5">
       <div class="row justify-content-center">
-        <div class="col-10 align-self-center">
+        <div class="col-md-10 align-self-center">
           <h2>Sobre a APEQ-ES</h2>
         </div>
       </div>
 
       <div class="container pt-5">
         <div class="row justify-content-center">
-          <div class="col-10 sm-12 md-10 align-self-center">
+          <div class="col-sm-12 col-md-10 align-self-center">
             <h3>Quem Somos</h3>
             <br />
             <blockquote class="blockquote">
@@ -31,7 +31,7 @@
 
       <div class="container pt-5">
         <div class="row justify-content-center">
-          <div class="col-10 sm-12 md-10 align-self-center">
+          <div class="col-md-10 col-sm-12 align-self-center">
             <h3>Nossa História</h3>
             <br />
             <blockquote class="blockquote">
@@ -51,11 +51,10 @@
 
       <div class="container pt-5">
         <div class="row justify-content-center">
-          <div class="col-10 align-self-center">
+          <div class="col-md-10 align-self-center">
             <h3>Membros</h3>
           </div>
           <div class="row justify-content-around text-center pt-5">
-            <!-- <div class="d-flex pt-5 justify-content-around"> -->
             <div class="col-md-4 col-sm-12 mb-auto">
               <img
                 src="../../assets/logoapeq.png"
@@ -88,7 +87,6 @@
                 <p>Pessoa 3</p>
               </blockquote>
             </div>
-            <!--  </div> -->
           </div>
         </div>
       </div>
