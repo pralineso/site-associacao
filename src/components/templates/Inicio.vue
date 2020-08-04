@@ -2,17 +2,17 @@
   <div>
     <Top />
 
-    <div class="container text-center mt-4 pb-5 ps">
+    <div class="container text-center mt-4 mb-5 corpo">
       <div class="row justify-content-center">
-        <div class="col">
+        <div class="col-md-12 col-sm-12">
           <h1 class="display-4 title">Associação de profissionais da</h1>
           <h1 class="display-4 title">Engenharia Química do Espírito Santo</h1>
         </div>
       </div>
       <br />
 
-      <div class="row">
-        <div class="col">
+      <div class="row justify-content-center">
+        <div class="col-md-12 col-sm-12">
           <div class="container carousel-size">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -56,9 +56,8 @@
       </div>
     </div>
 
-    <div class="fixed-bottom">
-      <Down />
-    </div>
+    
+    <Down />
   </div>
 </template>
 
@@ -78,13 +77,13 @@ export default {
 
 <style>
 .carousel-size {
-  width: 80%;
-}
-.ps {
-
-  margin-bottom: 200px;
+  width: 90%;
 }
 
+
+.corpo {
+  width:  100%;
+}
 
 
 .title {
